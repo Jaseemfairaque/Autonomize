@@ -1,16 +1,18 @@
 .search-bar {
   display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
 }
 
 .search-bar input {
   width: 25vw;
   transition: width 500ms ease-in-out;
   background-color: var(--theme-color-light) !important;
+  color: black;
   border: 2px solid black;
 }
-
-.search-bar input:hover,
-input:active,
-input:focus {
-  width: 35vw;
+.search-bar button{
+  width: 100px;
 }
+

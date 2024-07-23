@@ -15,7 +15,7 @@ const Header = () => {
   
   return (
     <header className="header__container">
-      <h3>Autonomize AI</h3>
+      <h3>Git Explore</h3>
       <button onClick={onClickHandler}>Home</button>
     </header>
   );

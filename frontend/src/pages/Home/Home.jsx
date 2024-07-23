@@ -8,7 +8,7 @@ const Home = () => {
 
   return (
     <div className="home-page__container">
-      <h1>Welcome to GitHub Explorer</h1>
+      <h1>GitHub Explorer</h1>
       <p>
         Enter a GitHub username below to explore repositories and followers.
       </p>

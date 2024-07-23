@@ -1,0 +1,30 @@
+.card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 350px;
+  max-width: 45vw;
+  border-radius: var(--border-radius);
+  padding: 8px;
+  border: 0.5px solid transparent; /* Initial transparent border */
+  box-sizing: border-box; /* Ensure padding and border are included in width/height */
+  transition: background-color 0.5s, border 0.5s, transform 0.3s ease; /* Smooth transition for background, border, and scaling */
+  cursor: pointer;
+}
+
+.card:hover {
+  background-color: rgb(39, 38, 38); /* Change background color on hover */
+  border: 0.5px solid white; /* Change border color on hover */
+  transform: translateY(-3px); /* Slight lift effect */
+}
+
+.card__image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.card__name {
+  color: rgb(225, 225, 238);
+  word-break: break-all;
+}

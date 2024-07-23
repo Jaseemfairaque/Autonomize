@@ -1,8 +1,12 @@
 header.header__container {
-  background-color: var(--theme-color-light);
+  background-color: rgba(23, 23, 23, 0.844);
   padding: 1rem 3rem;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.header__container h3{
+  
+  background-color: rgba(23, 23, 23, 0.844);
 }

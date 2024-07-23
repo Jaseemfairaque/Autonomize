@@ -7,11 +7,12 @@ const Card = ({ image, name, description, onClick }) => {
       <div className="card__image-container">
         <img src={image} alt={name} className="card__image" />
       </div>
-
       <div className="card__content">
         <h4 className="card__name">{name}</h4>
         {description && (
-          <p className="card__desc text-sm">
+          <p className="card__desc text-sm" style={
+            { backgroundColor:"rgb(39 38 38)"}
+          }>
             {description.split("").slice(0, 50).join("")}...
           </p>
         )}
