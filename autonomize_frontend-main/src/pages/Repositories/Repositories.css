@@ -1,0 +1,15 @@
+section.repositories-page {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+section.repositories-page > h3 {
+  text-decoration: underline;
+}
+
+.repositories-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}

@@ -1,0 +1,8 @@
+header.header__container {
+  background-color: var(--theme-color-light);
+  padding: 1rem 3rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

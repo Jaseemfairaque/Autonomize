@@ -1,0 +1,16 @@
+.search-bar {
+  display: flex;
+}
+
+.search-bar input {
+  width: 25vw;
+  transition: width 500ms ease-in-out;
+  background-color: var(--theme-color-light) !important;
+  border: 2px solid black;
+}
+
+.search-bar input:hover,
+input:active,
+input:focus {
+  width: 35vw;
+}

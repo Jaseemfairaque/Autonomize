@@ -1,0 +1,37 @@
+section.single-repo-page {
+  display: flex;
+  align-items: stretch;
+  gap: 1rem;
+}
+
+.single-repo-page__sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 15vw;
+}
+
+.single-repo-page__sidebar img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.single-repo-page__sidebar__topics {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.single-repo-page__sidebar__single-topic {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  font-size: 12px;
+}
+
+.single-repo-page__details .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
